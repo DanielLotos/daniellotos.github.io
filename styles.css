@@ -1,0 +1,424 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+  font-family: Roboto; /* Гарнитура шрифта */
+	src: url(fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Exo; /* Гарнитура шрифта */
+	src: url(fonts/Exo-Regular.otf); /* Путь к файлу со шрифтом */
+}
+
+@font-face {
+  font-family: Exo-Bold; /* Гарнитура шрифта */
+	src: url(fonts/Exo-Bold.otf); /* Путь к файлу со шрифтом */
+}
+
+body {
+	background-color: #fffcf5;
+	font-family: "Roboto", sans-serif;
+}
+/* --------------HEADER---------------- */
+header {
+	background-image: url(image/header-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover; /* для картинки на весь экран */
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header nav {
+	border-bottom: 1px solid #6f6666 ;
+	height: 120px;
+}
+
+header nav .logo {
+	margin: 43px 0 0 30px;
+}
+
+header nav ul {
+	display: flex;
+	list-style: none;
+	margin: 56px 97px 0 0;
+}
+
+header nav ul li {
+	margin-right: 43px;
+}
+
+div.wrapper {
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+/* --------------END HEADER---------------- */
+
+/* Links */
+a {
+	text-decoration: none;
+	color: white;
+}
+
+a:hover {
+	border-bottom: 2px solid #1dde85 ;
+	color: #1dde85;
+	padding-bottom: 10px;
+}
+
+a.logo:hover {
+	border-bottom: none;
+}
+/* End_links */
+
+div.love-foinni {
+	width: 950px;
+	margin: 0 auto;
+/*	padding-top: 260px;*/
+	height: 683px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: column;
+}
+
+div.love-foinni h1 {
+	color: white;
+	text-align: center;
+	font-family: "Exo", sans-serif;
+	font-size: 48px;
+}
+
+div.love-foinni h1 b {
+	color: #1dde85;
+	font-family: "Exo-Bold", sans-serif;
+}
+
+div.love-foinni p {
+	color: white;
+	font-size: 18px;
+	text-align: center;
+	line-height: 2em;
+	padding-top: 20px;
+}
+
+/* SECTION */
+section.main {
+	max-width: 1170px;
+	margin: 0 auto;
+}
+
+section.main h2.wellcome-to-foinni {
+	text-align: center;
+	color: #454546;
+	padding-top: 120px;
+}
+
+section.main h2 span {
+	color: #1dde85;
+}
+
+section.main p {
+	color: #8f8e91;
+	font-size: 18px;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 80px;
+	line-height: 2em;
+}
+
+/* JOB-BLOCKS */
+
+#job-blocks {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row;
+	flex-wrap: wrap;
+	text-align: center;
+} 
+
+.job-development,
+.job-respons,
+.job-clear-design,
+.job-graph-design,
+.job-photo,
+.job-photo-edit {
+	width: 357px;
+	height: 250px;
+	box-sizing: border-box;
+	border: 1px solid #8f8e91;
+	color: #454546;
+	display: flex;
+	justify-content: center;
+	flex-flow: column;
+	align-items: center;
+}
+
+
+
+#job-blocks,
+.job-development,
+.job-respons,
+.job-clear-design {
+	margin-bottom: 50px;
+}
+
+/* ACTION JOB-BLOCKS */
+
+.job-development:hover,
+.job-respons:hover,
+.job-clear-design:hover,
+.job-graph-design:hover,
+.job-photo:hover,
+.job-photo-edit:hover {
+	box-sizing: border-box;
+	border: 2px solid #1dde85;
+	color: #1dde85;
+}
+/*-----------------------BG IMAGE IN BLOCKS-JOB--------------*/
+.job-development {
+	background-image: url(image/job-icon/CODE.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-development:hover {
+	background-image: url(image/job-icon/CODE-a.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-respons {
+	background-image: url(image/job-icon/IMAC.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-respons:hover {
+	background-image: url(image/job-icon/IMAC-a.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-clear-design {
+	background-image: url(image/job-icon/WIFI.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-clear-design:hover {
+	background-image: url(image/job-icon/WIFI-a.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-graph-design {
+	background-image: url(image/job-icon/VIEW.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-graph-design:hover {
+	background-image: url(image/job-icon/VIEW-a.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-photo {
+	background-image: url(image/job-icon/CAMERA.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-photo:hover {
+	background-image: url(image/job-icon/CAMERA-a.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-photo-edit {
+	background-image: url(image/job-icon/BRIGHTNESS.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+
+.job-photo-edit:hover {
+	background-image: url(image/job-icon/BRIGHTNESS-a.png);
+	background-repeat: no-repeat;
+	background-position: 50% 10%;
+}
+/* ----------- END BG IMAGE IN BLOCK-JOB ----------------- */
+
+#job-blocks span {
+	color: #8f8e91;
+}
+
+#job-blocks h3 {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*------------------------END JOBS BLOCKS-------------------*/
+
+/*----------------------------MEET-US-----------------------*/
+
+#meet-us h2 {
+	text-align: center;
+	color: #454546;
+	padding-top: 75px;
+	padding-bottom: 60px;
+}
+/*-----------------Blocks with artist---------------*/
+div.boxes-meet-us {
+	display: flex;
+	justify-content: space-between;
+	flex-flow: row;
+	flex-wrap: wrap;
+}
+
+div.boxes-meet-us .box-1,
+div.boxes-meet-us .box-2,
+div.boxes-meet-us .box-3,
+div.boxes-meet-us .box-4 {
+	width: 274px;
+	height: 390px;
+	display: flex; /*  */
+	justify-content: center;
+	align-items: center;
+}
+
+
+/*
+div.boxes-meet-us .box-1:hover,
+div.boxes-meet-us .box-2:hover,
+div.boxes-meet-us .box-3:hover,
+div.boxes-meet-us .box-4:hover {
+	background-color: #1dde85;
+}
+*/
+/* ФОТО БОМЖЕЙ */
+div.boxes-meet-us .box-1 {
+	background-image: url(image/meet-us/box1-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+div.boxes-meet-us .box-2 {
+	background-image: url(image/meet-us/box2-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+div.boxes-meet-us .box-3 {
+	background-image: url(image/meet-us/box3-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+div.boxes-meet-us .box-4 {
+	background-image: url(image/meet-us/box4-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+}
+/*------КОНЕЦ_ФОТО БОМЖЕЙ--------*/
+
+
+
+/* ФОН ДЛЯ ФИО и ПРОФЕССИИ */
+.boxes-meet-us a .span-boxes {
+	position: absolute;
+	display: block;
+	left: 0px;
+	bottom: 0px;
+	background-color: rgba(69,69,70,0.94);
+	width: 246px;
+	height: 68px;
+	text-align: center;
+	margin-bottom: 16px;
+	margin-left: 14px;
+}
+/* КОНЕЦ_ФОН ДЛЯ ФИО и ПРОФЕССИИ */
+
+#meet-us .span-boxes-soc {
+	position: absolute;
+	display: none;
+	color: #fffcf4;
+	text-align: center;
+	background-color: rgba(29,222,133,0.9);
+	height: 100%;
+	width: 100%;
+}
+
+/* Работаем с ссылками */
+#meet-us div.boxes-meet-us a {
+	position: relative;
+	width: 274px;
+	height: 390px;
+	display: block;
+}
+div.boxes-meet-us a:hover {
+	border: none;
+	padding-bottom: 0px;
+}
+
+#meet-us div.boxes-meet-us a:hover .span-boxes-soc {
+	display: block;
+}
+
+#meet-us div.boxes-meet-us a:hover .span-boxes {
+	display: none;
+}
+
+/* Цвет ФИО и профессии */
+#meet-us .span-boxes p,
+#meet-us .span-boxes-soc p {
+	padding: 0px;
+	font-size: 14px;
+	color: #fffcf4;
+	line-height: 1.5em;
+}
+
+#meet-us .span-boxes h4,
+#meet-us .span-boxes-soc h4 {
+	padding-top: 10px;
+	font-size: 18px;
+	color: #fffcf4;
+}
+/* КОНЕЦ_Цвет ФИО и профессии */
+
+#meet-us .boxes-meet-us .span-boxes-soc h4 {
+	font-size: 18px;
+	padding-top: 180px;
+
+}
+
+#meet-us .boxes-meet-us .span-boxes-soc p {
+	font-size: 14px;
+	line-height: 1.5em;
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+
+/* SOCIAL-ICON FOR SPAN-BOXES-SOC */
+
+.soc-icon {
+	width: 100%;
+	height: 38px;
+	border-bottom: 1px solid white;
+	border-top: 1px solid white;
+	margin-top: 93px;
+	position: relative;
+}
+
+.soc-icon a{
+	width: auto !important;
+	height: auto !important;
+	position: absolute !important;
+	display: block !important;
+}
