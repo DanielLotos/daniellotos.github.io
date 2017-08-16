@@ -267,7 +267,7 @@ section.main p {
 
 /*----------------------------MEET-US-----------------------*/
 
-#meet-us h2 {
+h2 {
 	text-align: center;
 	color: #454546;
 	padding-top: 75px;
@@ -444,6 +444,174 @@ div.boxes-meet-us .spans:hover {
 .soc-icon a:hover{
 	text-decoration: none;
 	padding-bottom: 0px;
-
 }
 
+/*---------------------------*/
+/* END-----MEET US----BLOCKS */
+/*---------------------------*/
+
+
+/*---------------------------*/
+/* --START_OUR_LATESTWORKS-- */
+/*---------------------------*/
+.our-latest-works nav ul {
+	list-style: none;
+	max-width: 570px;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	margin: 0px auto;
+	margin-bottom: 50px;
+}
+
+.our-latest-works nav ul li {
+	max-width: 570px;
+}
+
+.our-latest-works nav ul li a{
+	color: #434243;
+	font-size: 18px;
+}
+
+.our-latest-works nav ul li a:hover{
+	border-bottom: 2px solid #1dde85 ;
+	color: #1dde85;
+	padding-bottom: 10px;
+}
+
+/* IMAGE OUR LATEST WORKS */
+
+.our-latest-works .image-latest-works {
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.our-latest-works .image-latest-works img {
+	margin-bottom: 50px;
+	border-style: none;
+}
+
+.our-latest-works .see-more {
+	margin: auto;
+	font-size: 18px;
+	color: #fffcf4;
+	display: block;
+	width: 195px;
+	height: 50px;
+	background-color: #1dde85;
+	margin-bottom: 36px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+}
+
+.our-latest-works .see-more:hover {
+	border-bottom: 0px;
+	padding-bottom: 0px;
+	color: #fffcf4;
+	opacity: 0.8;
+}
+
+/*---------------------------*/
+/* --END_OUR_LATESTWORKS-- */
+/*---------------------------*/
+
+/* START_SECTION-OUR_PRICING-PLANS */
+
+.price-blocks {
+	text-align: center;
+	max-width: 1170px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-around;
+	flex-direction: row;
+}
+
+.price-block {
+	display: block;
+	max-height: 460px;
+	max-width: 267px;
+	text-align: center;
+}
+
+.price-block h5 {
+	font-size: 14px;
+	color: #8f8e91;
+	line-height: 68px;
+}
+
+.price-block:hover h5 {
+	color: #1dde85;
+}
+
+.price-block .price-package {
+	width: 267px;
+	height: 392px;
+}
+
+.price-block:hover .price-package {
+	border: 1px solid #1dde85;
+	box-sizing: border-box;
+}
+
+.price-block .price-package p {
+	font-size: 18px;
+	color: #454546;
+	line-height: 90px;
+	border: 1px solid #454546;
+	box-sizing: border-box;
+}
+
+.price-block:hover .price-package p {
+	font-size: 18px;
+	color: #fffcf4;
+	line-height: 90px;
+	border: none;
+	background-color: #1dde85;
+	border-bottom: 1px solid #1dde85;
+}
+
+.price-block .price-package p b {
+	font-size: 36px;
+	font-weight: 600;
+}
+
+.price-block .price-package p b sup {
+	font-size: 24px;
+}
+
+.price-block .price-package ul {
+	list-style: none;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	line-height: 36px;
+	font-size: 14px;
+}
+
+.price-block .price-package ul li {
+	color: #8f8e91;
+}
+
+.price-block .price-package a {
+	display: block;
+	width: 100px;
+	line-height: 40px;
+	border: 1px solid #454546;
+	color: #454546;
+	margin: 0 auto;
+}
+
+.price-block .price-package:hover a {
+	background-color: #1dde85;
+	border: none;
+	color: #fffcf4;
+}
+
+.price-block .price-package a:hover {
+	border: none;
+	padding: 0px;
+	color: #fffcf4;
+}
