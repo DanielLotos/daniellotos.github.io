@@ -521,6 +521,12 @@ div.boxes-meet-us .spans:hover {
 
 /* START_SECTION-OUR_PRICING-PLANS */
 
+.our-pricing {
+	display: block;
+	max-width: 1170px;
+  margin: 0 auto;
+}
+
 .price-blocks {
 	text-align: center;
 	max-width: 1170px;
@@ -604,7 +610,7 @@ div.boxes-meet-us .spans:hover {
 	margin: 0 auto;
 }
 
-.price-block .price-package:hover a {
+.price-block:hover .price-package a {
 	background-color: #1dde85;
 	border: none;
 	color: #fffcf4;
