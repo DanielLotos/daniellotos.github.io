@@ -77,7 +77,7 @@ a.logo:hover {
 /* End_links */
 
 div.love-foinni {
-	width: 950px;
+	max-width: 950px;
 	margin: 0 auto;
 /*	padding-top: 260px;*/
 	height: 683px;
@@ -525,6 +525,7 @@ div.boxes-meet-us .spans:hover {
 	display: block;
 	max-width: 1170px;
   margin: 0 auto;
+  padding-bottom: 127px;
 }
 
 .price-blocks {
@@ -620,4 +621,148 @@ div.boxes-meet-us .spans:hover {
 	border: none;
 	padding: 0px;
 	color: #fffcf4;
+}
+
+/* END OUR PRICING PLANS */
+
+/* START CONTACT US */
+
+.say-hi {
+	margin: 0 auto;
+	font-family: "Roboto", sans-serif;
+	background-image: url(image/contact-us/bg-contact.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.say-hi h2 {
+	color: #fffcf4;
+}
+
+.say-hi form {
+	text-align: center;
+	color: #fffcf4;
+	margin: 0 auto;
+	max-width: 895px;
+}
+
+.say-hi form input[type="text"],
+.say-hi form input[type="email"] {
+	width: 435px;
+	line-height: 50px;
+	color: #fffcf4;
+	font-size: 14px;
+	border: 1px solid #fffcf4;
+	box-sizing: border-box;
+	padding: 0 20px 0 20px;
+	background: none;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 28px;
+}
+
+.say-hi input::placeholder,
+.say-hi textarea::placeholder {
+	color: #fffcf4;
+}
+
+.say-hi form input[type="email"] {
+	margin-left: 21px;
+}
+
+.say-hi form textarea {
+	width: 894px;
+	height: 215px;
+	font-size: 14px;
+	color: #fffcf4;
+	padding: 0 20px 0 20px;
+	border: 1px solid #fffcf4;
+	box-sizing: border-box;
+	line-height: 50px;
+	background: none;
+	font-family: "Roboto", sans-serif;
+}
+
+.say-hi form .send-button-say {
+	width: 195px;
+	line-height: 50px;
+	background-color: #1dde85;	
+	color: #fffcf4;
+	font-size: 18px;
+	border: none;
+	margin-top: 30px;
+	margin-bottom: 38px;
+}
+
+.say-hi form .send-button-say:hover {
+	width: 195px;
+	line-height: 50px;
+	background-color: #1dde85;	
+	color: #fffcf4;
+	font-size: 18px;
+	border: none;
+	opacity: 0.8;
+}
+
+footer {
+	display: block;
+	background-color: #0b0a0a;
+}
+
+footer .footer-container {
+	max-width: 1170px;
+	margin: 0 auto;
+	padding-top: 40px;
+	display: flex;
+	flex-direction: row;
+}
+
+footer .ft-about-us {
+	display: block;
+	max-width: 328px;
+	padding-right: 108px;
+}
+
+footer .ft-about-us h3,
+footer .ft-quick-links h3 {
+	font-size: 18px;
+	/*line-height: 36px;*/
+	color: #ffffff;
+	margin-bottom: 20px;
+}
+
+footer .ft-about-us p {
+	display: block;
+	font-size: 14px;
+	line-height: 30px;
+	color: #8f8e91;
+}
+
+footer .footer-container .ft-quick-links {
+	max-width: 346px;
+	margin-right: 148px;
+}
+
+footer .footer-container .ft-quick-links .ul-quick-links {
+	max-width: 346px;
+	display: flex;
+	flex-direction: row;
+}
+
+footer .footer-container .ft-quick-links ul {
+	list-style: none;
+	width: 105px;
+}
+
+footer .footer-container .ft-quick-links ul a{
+	text-decoration: none;
+	color: #8f8e91;
+	line-height: 30px;
+	font-size: 14px;
+}
+
+footer .footer-container .ft-quick-links ul a:hover{
+	text-decoration: none;
+	padding-bottom: 0px;
+	color: #1dde85;
+	border-bottom: none;
 }
