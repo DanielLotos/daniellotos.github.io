@@ -698,11 +698,10 @@ div.boxes-meet-us .spans:hover {
 .say-hi form .send-button-say:hover {
 	width: 195px;
 	line-height: 50px;
-	background-color: #1dde85;	
+	background-color: #3ceb9a;	
 	color: #fffcf4;
 	font-size: 18px;
 	border: none;
-	opacity: 0.8;
 }
 
 footer {
@@ -716,6 +715,7 @@ footer .footer-container {
 	padding-top: 40px;
 	display: flex;
 	flex-direction: row;
+	padding-bottom: 70px;
 }
 
 footer .ft-about-us {
@@ -825,4 +825,40 @@ footer .footer-container .ft-find-us-on .find-links .linked-link{
 
 footer .footer-container .ft-find-us-on .find-links .linked-link:hover{
 	background: url(image/footer/linked-active.png) no-repeat;
+}
+
+.ft-find-us-on form input[type="email"] {
+	width: 250px;
+	line-height: 40px;
+	color: #838484;
+	font-size: 14px;
+	border: 1px solid #838484;
+	box-sizing: border-box;
+	padding: 0 10px 0 10px;
+	background: none;
+	font-family: "Roboto", sans-serif;
+	margin-bottom: 17px;
+}
+
+.ft-find-us-on input::placeholder {
+	color: #838484;
+}
+
+.ft-find-us-on form .subscribe-button {
+	display: block;
+	width: 105px;
+	line-height: 37px;
+	background-color: #1dde85;	
+	color: #fffcf4;
+	font-size: 18px;
+	border: none;
+}
+
+.ft-find-us-on form .subscribe-button:hover {
+	width: 105px;
+	line-height: 37px;
+	background-color: #3ceb9a;	
+	color: #fffcf4;
+	font-size: 18px;
+	border: none;
 }
