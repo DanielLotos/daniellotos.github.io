@@ -277,7 +277,7 @@ div.boxes-meet-us {
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
 div.boxes-meet-us .box-1,
