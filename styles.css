@@ -1,7 +1,4 @@
-* {
-	margin: 0;
-	padding: 0;
-}
+
 
 @font-face {
   font-family: Roboto; /* Гарнитура шрифта */
@@ -21,6 +18,8 @@
 body {
 	background-color: #fffcf5;
 	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
 }
 /* --------------HEADER---------------- */
 header {
@@ -579,6 +578,8 @@ div.boxes-meet-us .spans:hover {
 	border: none;
 	background-color: #1dde85;
 	border-bottom: 1px solid #1dde85;
+	padding: 0;
+	margin: 0;
 }
 
 .price-block .price-package p b {
@@ -596,6 +597,7 @@ div.boxes-meet-us .spans:hover {
 	margin-bottom: 30px;
 	line-height: 36px;
 	font-size: 14px;
+	padding: 0;
 }
 
 .price-block .price-package ul li {
@@ -752,6 +754,8 @@ footer .footer-container .ft-quick-links .ul-quick-links {
 footer .footer-container .ft-quick-links ul {
 	list-style: none;
 	width: 105px;
+	padding-left: 0;
+	margin: 0;
 }
 
 footer .footer-container .ft-quick-links ul a{
@@ -775,11 +779,11 @@ footer .footer-container .ft-find-us-on {
 footer .footer-container .ft-find-us-on .find-links {
 	display: block;
 	padding: 0px;
+	font-size: 0;
 }
 
 footer .footer-container .ft-find-us-on .find-links a{
 	display: inline-block;
-	font-size: 0;
 	width: 40px;
 	height: 40px;
 	margin-right: 8px;
