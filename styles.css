@@ -277,7 +277,7 @@ div.boxes-meet-us {
 	display: flex;
 	justify-content: space-between;
 	flex-flow: row;
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 }
 
 div.boxes-meet-us .box-1,
@@ -715,6 +715,7 @@ footer .footer-container {
 	padding-top: 40px;
 	display: flex;
 	flex-direction: row;
+	justify-content: center;
 	padding-bottom: 70px;
 }
 
