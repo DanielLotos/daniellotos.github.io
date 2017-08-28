@@ -723,7 +723,8 @@ footer .ft-about-us {
 }
 
 footer .ft-about-us h3,
-footer .ft-quick-links h3 {
+footer .ft-quick-links h3,
+footer .ft-find-us-on h3 {
 	font-size: 18px;
 	/*line-height: 36px;*/
 	color: #ffffff;
@@ -765,4 +766,59 @@ footer .footer-container .ft-quick-links ul a:hover{
 	padding-bottom: 0px;
 	color: #1dde85;
 	border-bottom: none;
+}
+
+footer .footer-container .ft-find-us-on {
+	display: block;
+}
+
+footer .footer-container .ft-find-us-on .find-links {
+	display: block;
+	padding: 0px;
+}
+
+footer .footer-container .ft-find-us-on .find-links a{
+	display: inline-block;
+	font-size: 0;
+	width: 40px;
+	height: 40px;
+	margin-right: 8px;
+}
+
+footer .footer-container .ft-find-us-on .find-links a:hover{
+	border: 0px;
+	padding-bottom: 0px;
+}
+
+footer .footer-container .ft-find-us-on .find-links .fb-link{
+	background: url(image/footer/fb-def.png) no-repeat;
+}
+
+footer .footer-container .ft-find-us-on .find-links .fb-link:hover{
+	background: url(image/footer/fb-active.png) no-repeat;
+}
+
+footer .footer-container .ft-find-us-on .find-links .twt-link{
+	background: url(image/footer/twt-def.png) no-repeat;
+}
+
+footer .footer-container .ft-find-us-on .find-links .twt-link:hover{
+	background: url(image/footer/twt-active.png) no-repeat;
+}
+
+footer .footer-container .ft-find-us-on .find-links .gplus-link{
+	background: url(image/footer/gplus-def.png) no-repeat;
+}
+
+footer .footer-container .ft-find-us-on .find-links .gplus-link:hover{
+	background: url(image/footer/gplus-active.png) no-repeat;
+}
+
+footer .footer-container .ft-find-us-on .find-links .linked-link{
+	background: url(image/footer/linked-def.png) no-repeat;
+	margin-right: 0px;
+}
+
+footer .footer-container .ft-find-us-on .find-links .linked-link:hover{
+	background: url(image/footer/linked-active.png) no-repeat;
 }
